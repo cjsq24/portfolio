@@ -1,0 +1,59 @@
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout {
+  background: #f3f3f3;
+}
+
+.breadcrumb-section {
+  background-color: white;
+  /* border-top: 1px solid lightgray; */
+  padding: 10px 10px 10px 20px;
+}
+
+.icon-profile {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: lightgray;
+}
+
+.icon-profile-container {
+  display: flex;
+  justify-content: center;
+}
+
+.c-header {
+  background-color: lightblue;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c-content {
+  background-color: white;
+}
+
+.c-footer {
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  padding: 20px 20px;
+}
